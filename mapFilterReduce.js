@@ -10,3 +10,14 @@ const names = ["asif", "emon", "zeux", "necromancer"];
 const upperC = names.map(name => name.toUpperCase());
 console.log(upperC);
 
+//using filter
+
+//Finding fresh items from the list
+let items =[
+    {name: "Milk", expired: true},
+    {name: "Bread", expired: false},
+    {name: "Biscuit", expired: false},
+    {name: "Chips", expired: true},
+];
+const freshItems = items.filter(item => !item.expired);
+console.log(freshItems);
