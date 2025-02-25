@@ -7,6 +7,7 @@ console.log(greet("Shahriar"));
 const hello = (name, age)=> "Hello "+ name + ". Your age is "+ age +"!";
 
 console.log(hello("Haris",25));
+console.log(hello("Haris",25));
 
 const area = (length, width) => length*width;
 console.log("area is ", area(5,4));
