@@ -1,3 +1,13 @@
+function makeBurger() {
+  console.log("Cooking the burger...");
+  console.log("Burger is ready!");
+}
+
+console.log("Ordering a burger...");
+makeBurger();
+console.log("Enjoy your meal!");
+
+
 function fetchUserData(callback) {
   console.log("Fetching user data...");
 
